@@ -51,6 +51,6 @@ app.post('/mission', (req, res) => {
     return res.json({ open })
 })
 
-app.listen(3001, () =>
+app.listen(3000, () =>
 	console.log('server is running in port 3000...')
 )
